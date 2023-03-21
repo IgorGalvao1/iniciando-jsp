@@ -19,20 +19,5 @@ repositories {
 
 dependencies {
     // This dependency is used by the application.
-    implementation 'com.google.guava:guava:31.0.1-jre'
-}
-
-testing {
-    suites {
-        // Configure the built-in test suite
-        test {
-            // Use JUnit4 test framework
-            useJUnit('4.13.2')
-        }
-    }
-}
-
-application {
-    // Define the main class for the application.
-    mainClass = 'iniciando.jsp.App'
+    implementation 'org.glassfish.web:jakarta.servlet.jsp.jstl:3.0.1'
 }
