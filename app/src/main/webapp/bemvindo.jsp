@@ -13,6 +13,13 @@
      <hr />
      <div>
         <ul>
+            <%
+                for(int i = 1;i <= 10;i++) {
+                    out.print("<li>" + i + "</li>");
+                }
+            %>
+        </ul>
+        <ul>
             <%for(int i = 1;i <= 10;i++) { %>
                 <li> <%= i %> </li>
             <% } %>
