@@ -10,5 +10,13 @@
         String nome = request.getParameter("nome");
         out.print ("Bem Vindo " + nome + "!!!");
      %>
+     <hr />
+     <div>
+        <ul>
+            <%for(int i = 1;i <= 10;i++) { %>
+                <li> <%= i %> </li>
+            <% } %>
+        </ul>
+     </div>
 </body>
 </html>
