@@ -4,16 +4,23 @@
     <meta charset="UTF-8">
     <title>While</title>
 </head>
-<body>
-    <h1>While</h1>
+    <body>
+        <h1>While</h1>
 
-    <%
-        String palavra = "";
-        while(!palavra.equals("AAAA")) {
-            palavra += "A";
-        }
-    %>
+        <%
+            String palavra = "";
+            while(!palavra.equals("AAAA")) {
+                palavra += "A";
+            }
+        %>
 
-    <span><%= palavra %></span>
-</body>
+        <%
+            int cont = 1;
+            while(cont <= 10) {
+                out.print("<br />" + cont++);
+            }
+        %>
+
+        <span><%= palavra %></span>
+    </body>
 </html>
